@@ -1,0 +1,41 @@
+body {
+  font-family: Verdana, sans-serif;
+  color: #111;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+a {
+  color: #777;
+}
+
+a:visited {
+  color: #555;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+
+.sidebar {
+  background: #efefef;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+.sidebar.rhs {
+  float: right;
+  clear: right;
+  width: 200px;
+  margin-left: 50px;
+}
+
+.sidebar img {
+  max-width: 100%;
+}
+
+.sidebar .caption {
+  color: #333;
+  font-size: 10px;
+}
