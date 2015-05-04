@@ -1,8 +1,12 @@
 body {
-  font-family: Verdana, sans-serif;
+  font-family: 'Muli', Verdana, sans-serif;
   color: #111;
   max-width: 1000px;
   margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Lato', 'Muli', Verdana, sans-serif;
 }
 
 a {
@@ -17,12 +21,6 @@ ul li {
   margin-bottom: 10px;
 }
 
-
-.sidebar {
-  background: #efefef;
-  border: 1px solid #ccc;
-  padding: 5px;
-}
 
 .sidebar.rhs {
   float: right;
